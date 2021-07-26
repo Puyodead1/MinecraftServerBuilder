@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="me.puyodead1.minecraftserverbuilder.MainForm">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="764" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="d78fe" binding="contentWrapper" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14671323"/>
+          <foreground color="-1"/>
+        </properties>
+        <border type="empty">
+          <size top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children>
+          <grid id="ddb3e" binding="softwareSelectionPanel" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="5" left="5" bottom="5" right="5"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-13223617"/>
+            </properties>
+            <border type="line">
+              <size top="10" left="10" bottom="10" right="10"/>
+              <color color="-12565429"/>
+            </border>
+            <children>
+              <component id="688f2" class="javax.swing.JLabel" binding="softwareSelectionLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <foreground color="-1"/>
+                  <text value="Select the software to build"/>
+                </properties>
+              </component>
+              <grid id="af289" binding="softwareSelectionRadioPanel" layout-manager="GridLayoutManager" row-count="1" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13223617"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="9c864" class="javax.swing.JRadioButton" binding="softwareSelectionRadioSpigot">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13223617"/>
+                      <foreground color="-1"/>
+                      <selected value="true"/>
+                      <text value="Spigot"/>
+                    </properties>
+                  </component>
+                  <component id="31b68" class="javax.swing.JRadioButton" binding="softwareSelectionRadioPaper">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13223617"/>
+                      <foreground color="-1"/>
+                      <text value="PaperMC"/>
+                    </properties>
+                  </component>
+                  <component id="491fb" class="javax.swing.JRadioButton" binding="softwareSelectionRadioBungeecord">
+                    <constraints>
+                      <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13223617"/>
+                      <foreground color="-1"/>
+                      <text value="BungeeCord"/>
+                    </properties>
+                  </component>
+                  <component id="6c34" class="javax.swing.JRadioButton" binding="softwareSelectionRadioPurpur">
+                    <constraints>
+                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-13223617"/>
+                      <foreground color="-1"/>
+                      <text value="Purpur"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <vspacer id="9864e">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <grid id="d4bf9" binding="eulaPanel" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="5" left="5" bottom="5" right="5"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-13223617"/>
+            </properties>
+            <border type="line">
+              <size top="10" left="10" bottom="10" right="10"/>
+              <color color="-12565429"/>
+            </border>
+            <children>
+              <component id="27b3b" class="javax.swing.JLabel" binding="eulaLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <foreground color="-1"/>
+                  <text value="You must agree to Mojangs EULA"/>
+                </properties>
+              </component>
+              <grid id="bee54" binding="eulaInnerPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-13223617"/>
+                  <foreground color="-1"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="9dc7d" class="javax.swing.JCheckBox" binding="eulaCheckBox">
+                    <constraints/>
+                    <properties>
+                      <background color="-13223617"/>
+                      <foreground color="-1"/>
+                      <text value="Accept"/>
+                    </properties>
+                  </component>
+                  <component id="edb3c" class="javax.swing.JButton" binding="moreInformationButton" default-binding="true">
+                    <constraints/>
+                    <properties>
+                      <background color="-13223617"/>
+                      <borderPainted value="false"/>
+                      <foreground color="-1"/>
+                      <text value="?"/>
+                      <toolTipText value="More Information"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="softwareSelectionRadioGroup">
+      <member id="9c864"/>
+      <member id="31b68"/>
+      <member id="491fb"/>
+      <member id="6c34"/>
+    </group>
+  </buttonGroups>
+</form>
